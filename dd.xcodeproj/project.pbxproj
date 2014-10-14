@@ -13,6 +13,8 @@
 		6C1B283A19EC18910073A04B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B283919EC18910073A04B /* Images.xcassets */; };
 		6C1B283D19EC18910073A04B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1B283B19EC18910073A04B /* LaunchScreen.xib */; };
 		6C1B284919EC18910073A04B /* ddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B284819EC18910073A04B /* ddTests.swift */; };
+		6C1B285319EC18F60073A04B /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B285219EC18F60073A04B /* View2.swift */; };
+		6C1B285519EC29360073A04B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B285419EC29360073A04B /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6C1B284219EC18910073A04B /* ddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1B284719EC18910073A04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C1B284819EC18910073A04B /* ddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ddTests.swift; sourceTree = "<group>"; };
+		6C1B285219EC18F60073A04B /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		6C1B285419EC29360073A04B /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		6C1B282F19EC18910073A04B /* dd */ = {
 			isa = PBXGroup;
 			children = (
+				6C1B285219EC18F60073A04B /* View2.swift */,
 				6C1B283219EC18910073A04B /* AppDelegate.swift */,
 				6C1B283419EC18910073A04B /* ViewController.swift */,
 				6C1B283619EC18910073A04B /* Main.storyboard */,
 				6C1B283919EC18910073A04B /* Images.xcassets */,
 				6C1B283B19EC18910073A04B /* LaunchScreen.xib */,
 				6C1B283019EC18910073A04B /* Supporting Files */,
+				6C1B285419EC29360073A04B /* UserModel.swift */,
 			);
 			path = dd;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1B283519EC18910073A04B /* ViewController.swift in Sources */,
+				6C1B285319EC18F60073A04B /* View2.swift in Sources */,
+				6C1B285519EC29360073A04B /* UserModel.swift in Sources */,
 				6C1B283319EC18910073A04B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
